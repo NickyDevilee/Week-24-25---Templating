@@ -1,0 +1,66 @@
+/*Nicky Devilee | 99047338
+Bol4 applicatieontwikkelaar
+Blok 2
+Week 24/25 - Templating */
+
+.tijd{
+	position: absolute;
+	right: 0;
+	margin-right: 25px;
+	width: 150px;
+    background-color: #222931;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:purple;}
+  50%{background-color:green;}
+  75%{background-color:blue;}
+  100% {background-color: red;}
+}
+
+.container{
+	margin-top: 25px;
+}
+
+.overMij{
+	width: 750px;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+
+.footer{
+    width: 100%;
+    background-color: #222931;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
