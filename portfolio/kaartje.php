@@ -51,7 +51,7 @@ button:hover, a:hover {
   <img src="img/profile.jpg" alt="John" style="width:100%"> <!-- img/profile.jpg -->
   <h1>Nicky Devilee</h1>
   <p class="title">MBO-Student: <br> Applicatieontwikkelaar</p>
-  <p>Da Vinci College, Gorinchem</p>
+  <p>Da Vinci College <br> Gorinchem</p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fab fa-linkedin"></i></a>
     <a href="#"><i class="fab fa-github"></i></a>   

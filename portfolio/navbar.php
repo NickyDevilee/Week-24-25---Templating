@@ -11,13 +11,13 @@ Week 24/25 - Templating  -->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="portfolio-main.php"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-user"></i> Over mij</a>
+        <a class="nav-link" href="OverMij.php"><i class="fas fa-user"></i> Over mij</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Projecten</a>
+        <a class="nav-link" href="projecten.php"><i class="fas fa-tasks"></i> Projecten</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><i class="fas fa-phone"></i> Contact</a>
