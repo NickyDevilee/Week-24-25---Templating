@@ -36,7 +36,7 @@ button a{
 	color: white;
 }
 
-a {
+.linkje {
   text-decoration: none;
   font-size: 22px;
   color: black;
@@ -53,10 +53,10 @@ button:hover, a:hover {
   <p class="title">MBO-Student: <br> Applicatieontwikkelaar</p>
   <p>Da Vinci College <br> Gorinchem</p>
   <div style="margin: 24px 0;">
-    <a href="#"><i class="fab fa-linkedin"></i></a>
-    <a href="#"><i class="fab fa-github"></i></a>   
-    <a href="#"><i class="fab fa-twitter"></i></a>  
-    <a href="#"><i class="fab fa-facebook"></i></a> 
+    <a class="linkje" href="#"><i class="fab fa-linkedin"></i></a>
+    <a class="linkje" href="#"><i class="fab fa-github"></i></a>   
+    <a class="linkje" href="#"><i class="fab fa-twitter"></i></a>  
+    <a class="linkje" href="#"><i class="fab fa-facebook"></i></a> 
   </div>
-  <p><button onclick="window.location.href = '#';"><i class="fas fa-phone"></i> Contact</button></p>
+  <p><button onclick="window.location.href = 'contact.php';"><i class="fas fa-phone"></i> Contact</button></p>
 </div>

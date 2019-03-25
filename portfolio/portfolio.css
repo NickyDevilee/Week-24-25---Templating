@@ -62,7 +62,7 @@ Week 24/25 - Templating */
   color: #ffffff;
   margin-top: 50px;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 #klik{
@@ -92,12 +92,6 @@ Week 24/25 - Templating */
   margin-right: auto;
 }
 
-.carousel h1{
-  padding-bottom: 10px;
-  border-style: solid;
-  border-width: medium;
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon{
   background-image: none;
   height: 100px;
@@ -114,4 +108,10 @@ Week 24/25 - Templating */
   content: '>';
   font-size: 55px;
   color: black;
+}
+
+/*projecten*/
+
+.projectKaartje{
+  margin-top: 100px;
 }

@@ -5,13 +5,7 @@ Week 24/25 - Templating  -->
 
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Portfolio - Nicky Devilee</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="portfolio.css">
-</head>
+<?php include 'head.php'; ?>
 <body>
 
   <div class="menu">
@@ -27,7 +21,7 @@ Week 24/25 - Templating  -->
       <?php include 'kaartje.php'; ?>
     </div>
 
-    <div style="margin-top: 2px;" class="overMij col-lg-8">
+    <div class="overMij col-lg-8">
       <h1>Over mij:</h1><hr>
       <p>Ik ben Nicky, geboren op 14 oktober 1999 in Gorinchem.<br> Ik woon in Vuren samen met mijn moeders en mijn broertje.<br> Na de lagere school ben ik naar de HAVO gegaan op het Fortes Lyceum in Gorinchem.<br> Na het behalen van mijn diploma ben ik deze opleiding gaan volgen: Applicatieontwikkelaar.<br> Hierna zou ik willen doorleren in de ICT zodat ik hier mijn werk van kan maken.</p><br><br>
       <h1>Opleidingen:</h1><hr>
@@ -51,9 +45,9 @@ Week 24/25 - Templating  -->
   </div>
 
   <div class="carousel">
-    <h1>Mijn projecten:</h1>
+    <hr><h1>Mijn projecten:</h1><hr><br><br>
     <?php include 'carrousel/lab2.php'; ?>
-    <h5>Meer zien? Ga naar de pagina "Projecten".</h5>
+    <h5>Meer zien? Ga naar de pagina "Projecten" of <a href="projecten.php">klik hier</a>.</h5>
   </div>
 
 

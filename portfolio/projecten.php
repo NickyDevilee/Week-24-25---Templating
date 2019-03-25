@@ -5,13 +5,7 @@ Week 24/25 - Templating  -->
 
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Portfolio - Nicky Devilee</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="portfolio.css">
-</head>
+<?php include 'head.php'; ?>
 <body>
 
   <div class="menu">
@@ -23,7 +17,7 @@ Week 24/25 - Templating  -->
   </div>
 
   <div class="container col-lg-12 row">
-    <div class="kaartje col-lg-4">
+    <div class="kaartje col-lg-4 projectKaartje">
       <?php include 'kaartje.php'; ?>
     </div>
 
@@ -35,7 +29,34 @@ Week 24/25 - Templating  -->
   </div>
 
   <div class="Fotos">
-    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="thumbnail">
+            <img src="img/5.jpg" alt="één van mijn projecten" style="width:100%">
+            <div class="caption">
+              <p>Dit was een van de eerste opdrachten, in deze opdracht moesten wij een digitaal portfolio maken, hetzelfde als de site die je nu bezoekt. Mijn kennis is veel beter geworden en deze site ziet er dan ook veel beter uit al zeg ik het zelf.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="thumbnail">
+              <img src="img/6.jpg" alt="één van mijn projecten" style="width:100%">
+              <div class="caption">
+                <p>In deze opdracht moesten wij een recept-pagina maken. We kregen voor het eerst een foto mee en er werd gezegd dat we deze na moesten maken als site. Wat je ziet is de index pagina met alle verschillende gerechten.</p>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="thumbnail">
+              <img src="img/7.jpg" alt="één van mijn projecten" style="width:100%">
+              <div class="caption">
+                <p>In deze opdracht moesten wij een "horeca app" maken, op de site kon je een bestelling doorgeven en uiteindelijk kreeg je het "bonnetje" te zien op het scherm. Wat je ziet op de foto is het eindresultaat.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="footer">
@@ -44,5 +65,3 @@ Week 24/25 - Templating  -->
 
 </body>
 </html>
-
-<!-- Ik woon in Vuren samen met mijn moeders en mijn broertje. Na de lagere school ben ik naar de HAVO gegaan op het Fortes Lyceum in Gorinchem. Na het behalen van mijn diploma ben ik deze opleiding gaan volgen: Applicatieontwikkelaar. Hierna zou ik willen doorleren in de ICT zodat ik hier mijn werk van kan maken. -->
