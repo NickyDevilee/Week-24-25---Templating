@@ -1,7 +1,7 @@
 <!-- Nicky Devilee | 99047338
 Bol4 applicatieontwikkelaar
 Blok 2
-Week 22 - Forms -->
+Week 24/25 - Templating -->
 
 <form method="post" action="contact.php">
 	<fieldset>
@@ -15,7 +15,7 @@ Week 22 - Forms -->
 			Telefoonnummer:<br>
 			<input type="text" name="telefoonnummer" placeholder="06 - 12345678"><br>
 			Uw vraag:<br>
-			<textarea name="vraag" placeholder="Uw vraag ..."></textarea><br>
+			<textarea name="vraag" placeholder="Uw vraag ..." required></textarea><br>
 			<input type="submit" value="Verzenden">
 	</fieldset>
 </form>

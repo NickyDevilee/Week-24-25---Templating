@@ -48,15 +48,15 @@ button:hover, a:hover {
 </style>
 
 <div class="card">
-  <img src="img/profile.jpg" alt="John" style="width:100%"> <!-- img/profile.jpg -->
+  <img src="img/profile.jpg" alt="John" style="width:100%">
   <h1>Nicky Devilee</h1>
   <p class="title">MBO-Student: <br> Applicatieontwikkelaar</p>
   <p>Da Vinci College <br> Gorinchem</p>
   <div style="margin: 24px 0;">
-    <a class="linkje" href="#"><i class="fab fa-linkedin"></i></a>
-    <a class="linkje" href="#"><i class="fab fa-github"></i></a>   
-    <a class="linkje" href="#"><i class="fab fa-twitter"></i></a>  
-    <a class="linkje" href="#"><i class="fab fa-facebook"></i></a> 
+    <a class="linkje" href="https://www.linkedin.com/in/nicky-devilee-895098182/"><i class="fab fa-linkedin"></i></a>
+    <a class="linkje" href="https://github.com/NickyDevilee"><i class="fab fa-github"></i></a>   
+    <a class="linkje" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>  
+    <a class="linkje" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a> 
   </div>
   <p><button onclick="window.location.href = 'contact.php';"><i class="fas fa-phone"></i> Contact</button></p>
 </div>

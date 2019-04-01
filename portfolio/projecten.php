@@ -24,7 +24,7 @@ Week 24/25 - Templating  -->
     <div class="overMij col-lg-8">
       <h1>Projecten</h1><hr>
       <p>Hieronder staan een aantal verschillende projecten van mij. <br> Als je verder naar beneden scrollt kom je nog meer projecten tegen met uitleg over het project. </p><br><br>
-      <?php include 'carrousel/lab2.php'; ?>
+      <div class="carousel container col-lg-12 row"><?php include 'carrousel/lab2.php'; ?></div>
     </div>
   </div>
 
@@ -35,7 +35,7 @@ Week 24/25 - Templating  -->
           <div class="thumbnail">
             <img src="img/5.jpg" alt="één van mijn projecten" style="width:100%">
             <div class="caption">
-              <p>Dit was een van de eerste opdrachten, in deze opdracht moesten wij een digitaal portfolio maken, hetzelfde als de site die je nu bezoekt. Mijn kennis is veel beter geworden en deze site ziet er dan ook veel beter uit al zeg ik het zelf.</p>
+              <p>Dit was een van de eerste opdrachten, in deze opdracht moesten wij een digitaal portfolio maken, hetzelfde als de site die je nu bezoekt. Mijn kennis is veel beter geworden en deze site ziet er dan ook veel beter uit al zeg ik het zelf.</p><br><br>
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@ Week 24/25 - Templating  -->
           <div class="thumbnail">
               <img src="img/6.jpg" alt="één van mijn projecten" style="width:100%">
               <div class="caption">
-                <p>In deze opdracht moesten wij een recept-pagina maken. We kregen voor het eerst een foto mee en er werd gezegd dat we deze na moesten maken als site. Wat je ziet is de index pagina met alle verschillende gerechten.</p>
+                <p>In deze opdracht moesten wij een recept-pagina maken. We kregen voor het eerst een foto mee en er werd gezegd dat we deze na moesten maken als site. Wat je ziet is de index pagina met alle verschillende gerechten.</p><br><br>
               </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ Week 24/25 - Templating  -->
           <div class="thumbnail">
               <img src="img/7.jpg" alt="één van mijn projecten" style="width:100%">
               <div class="caption">
-                <p>In deze opdracht moesten wij een "horeca app" maken, op de site kon je een bestelling doorgeven en uiteindelijk kreeg je het "bonnetje" te zien op het scherm. Wat je ziet op de foto is het eindresultaat.</p>
+                <p>In deze opdracht moesten wij een "horeca app" maken, op de site kon je een bestelling doorgeven en uiteindelijk kreeg je het "bonnetje" te zien op het scherm. Wat je ziet op de foto is het eindresultaat.</p><br><br>
               </div>
           </div>
         </div>

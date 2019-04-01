@@ -44,7 +44,7 @@ Week 24/25 - Templating  -->
     </div>
   </div>
 
-  <div class="carousel">
+  <div class="carousel container col-lg-12 row">
     <hr><h1>Mijn projecten:</h1><hr><br><br>
     <?php include 'carrousel/lab2.php'; ?>
     <h5>Meer zien? Ga naar de pagina "Projecten" of <a href="projecten.php">klik hier</a>.</h5>

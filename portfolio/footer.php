@@ -9,6 +9,6 @@ Week 21 - Introductie PHP -->
 	p{display: inline;}
 </style>
 
-<p>  © Nicky Devilee | 99047338, 2019 </p> <a id="in" href="#"><i class="fab fa-linkedin"></i></a>
+<p>  © Nicky Devilee | 99047338, 2019 </p> <a id="in" href="https://www.linkedin.com/in/nicky-devilee-895098182/"><i class="fab fa-linkedin"></i></a>
 
 
